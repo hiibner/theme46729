@@ -234,6 +234,36 @@ if(!function_exists('optionsframework_options')) {
 							"type" => "upload"
 		);
 
+		$options['vimeo'] = array( 
+							"name" => __('Vimeo URL', CURRENT_THEME),
+							"desc" => __('Vimeo URL', CURRENT_THEME),
+							"id" => "vimeo",
+							"std" => "#",
+							"type" => "text"
+		);					
+		$options['vimeo_icon'] = array( 
+							"name" => __('Vimeo Icon', CURRENT_THEME),
+							"desc" => __('Vimeo Icon', CURRENT_THEME),
+							"id" => "vimeo_icon",
+							"std" => get_stylesheet_directory_uri() . "/images/icons/vimeo.png",
+							"type" => "upload"
+		);
+
+		$options['youtube'] = array( 
+							"name" => __('YouTube URL', CURRENT_THEME),
+							"desc" => __('YouTube URL', CURRENT_THEME),
+							"id" => "youtube",
+							"std" => "#",
+							"type" => "text"
+		);					
+		$options['youtube_icon'] = array( 
+							"name" => __('YouTube Icon', CURRENT_THEME),
+							"desc" => __('YouTube Icon', CURRENT_THEME),
+							"id" => "vimeo_icon",
+							"std" => get_stylesheet_directory_uri() . "/images/icons/vimeo.png",
+							"type" => "upload"
+		);
+
 // ---------------------------------------------------------
 // Logo & Favicon
 // ---------------------------------------------------------
