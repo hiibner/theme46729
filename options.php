@@ -259,8 +259,38 @@ if(!function_exists('optionsframework_options')) {
 		$options['youtube_icon'] = array( 
 							"name" => __('YouTube Icon', CURRENT_THEME),
 							"desc" => __('YouTube Icon', CURRENT_THEME),
-							"id" => "vimeo_icon",
-							"std" => get_stylesheet_directory_uri() . "/images/icons/vimeo.png",
+							"id" => "youtube_icon",
+							"std" => get_stylesheet_directory_uri() . "/images/icons/youtube.jpg",
+							"type" => "upload"
+		);
+
+		$options['instagram'] = array( 
+							"name" => __('Instagram URL', CURRENT_THEME),
+							"desc" => __('Instagram URL', CURRENT_THEME),
+							"id" => "instagram",
+							"std" => "#",
+							"type" => "text"
+		);					
+		$options['instagram_icon'] = array( 
+							"name" => __('Instagram Icon', CURRENT_THEME),
+							"desc" => __('Instagram Icon', CURRENT_THEME),
+							"id" => "instagram_icon",
+							"std" => get_stylesheet_directory_uri() . "/images/icons/instagram.png",
+							"type" => "upload"
+		);
+
+		$options['donate'] = array( 
+							"name" => __('donate URL', CURRENT_THEME),
+							"desc" => __('donate URL', CURRENT_THEME),
+							"id" => "donate",
+							"std" => "#",
+							"type" => "text"
+		);					
+		$options['donate_icon'] = array( 
+							"name" => __('donate Icon', CURRENT_THEME),
+							"desc" => __('donate Icon', CURRENT_THEME),
+							"id" => "donate_icon",
+							"std" => get_stylesheet_directory_uri() . "/images/icons/donate-button.png",
 							"type" => "upload"
 		);
 
